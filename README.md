@@ -64,7 +64,7 @@ The Chef client applies the configurations specified in cookbooks to a node.
 - Use the `chef-client` command to apply recipes to the local node.
 
 ```sh
-sudo chef-client --local-mode --runlist 'recipe[my_cookbook::default]'
+sudo chef-client --local-mode --runlist recipe[my_cookbook::default]
 ```
 
 ### 6. Managing Nodes
